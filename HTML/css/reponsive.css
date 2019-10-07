@@ -1,0 +1,670 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+    /* header-aria */
+    .navbar-light .navbar-brand {
+        margin-right: 20%;
+    }
+    /* slider-aria */
+    .slider-active .slick-dots {
+        left: 47%;
+    }
+    
+    /* featuch-aria */
+    .single-featuch {
+        padding: 35px 10px 25px 10px;
+    }
+    /* our-project-aria */
+    .project-heaading h2 {
+        padding: 80px 0px 60px 0px;
+    }
+    .project-heaading h2 span {
+        margin-left: 432px;
+    }
+    /* Latest_Projects */
+    .Latest_Projects-heaading h2 span {
+        margin-left: 430px;
+    }
+    /* Choose-Us-aria */
+    .Choose-Us_Projects-heaading h2 span {
+        margin-left: 430px;
+    }
+    /* Working-aria */
+    .Working-aria_Projects-heaading h2 span {
+        margin-left: 280px;
+    }
+    .Working-aria {
+        padding: 80px 0;
+    }
+    /* blog-aria */
+    .blog-active .slick-arrow {
+        right: 152px;
+    }
+    .blog-active .slick-arrow.slick-next {
+        right: 110px;
+    }
+    .blog-contant p {
+        font-size: 15px;
+    }
+    .blog-contant h3 {
+        font-size: 16px;
+    }
+    .box {
+        width: 158px;
+        height: auto; 
+    }
+    .box img {
+        height: 188px;
+    }
+    .box p {
+        position:inherit;
+        width: 158px;
+    }
+    .content-readmore {
+        margin-top: 40px;
+    }
+    /* brand-aria */
+    .brant-icon,
+    .brant-icon2{
+        margin-left: 50px;
+    }
+    /* footer-aria */
+    .footer-logo p {
+        font-size: 12px;
+    }
+    .footer-logo i {
+        margin-right: 20px;
+    }
+    input {
+        width: 60%;
+        padding: 14px 10px 14px 10px;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768px to 991px */
+@media only screen and (max-width: 991px) {
+    /* hadder-aria */
+    .navbar-light .navbar-nav .nav-link {
+        padding: 40px 200px 46px 300px;
+    }
+    .form-inline {
+        margin-left: 300px;
+    }
+    /* bg-conant */
+    .bg-single-conant p {
+        font-size: 14px;
+        padding: 30px 0;
+    }
+    .bg-single-conant span {
+        font-size: 22px;
+    }
+    button.btn.btn-danger {
+        margin-top: 21px;
+    }
+    /* featuch-aria */
+    .featuch-aria {
+        padding: 40px 0;
+    }
+    .featuch-contant {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .single-featuch {
+        padding: 35px 20px 25px 20px;
+    }
+    /* our-project */
+    .project-heaading h2 span {
+        margin-left: 310px;
+    }
+    .single-project i {
+        padding: 20px;
+    }
+    .single-project h3 {
+        margin-left: 100px;
+    }
+    .single-project h4 {
+        margin-left: 100px;
+    }
+    .row.pb-80 {
+        padding-bottom: 0;
+    }
+    /* Latest_Projects */
+    .Latest_Projects-heaading h2 span {
+        margin-left: 300px;
+    }
+    .Choose-Us_Projects-heaading h2 span {
+        margin-left: 300px;
+    }
+    /* Choose-Us-aria */
+    .Choose-Us-aria{
+        padding: 50px 0;
+    }
+    /*  Working-aria*/
+    .Working-aria_Projects-heaading h2 span {
+        margin-left: 200px;
+    }
+    /* blog-aria */
+    .blog-post h2 {
+        margin-left: 20px;
+    }
+    .blog-active .slick-arrow {
+        right: 380px;
+        top: 22%;
+    }
+    .blog-active .slick-arrow.slick-next {
+        right: 335px;
+    }
+    .box {
+        width: 230px;
+        margin-left: 20px;
+    }
+    .blog-contant h3 {
+        font-size: 25px;
+    }
+    .blog-contant p {
+        font-size: 16px;
+    }
+    .content-readmore i {
+        font-size: 18px;
+    }
+    .content-readmore a {
+        font-size: 20px;
+    }
+    .blog-post {
+        margin-top: 84px;
+    }
+    /* brand-aria */
+    .brand-aria {
+        padding: 40px 0;
+    }
+    .brant-icon, .brant-icon2 {
+        margin-left: 25px;
+    }
+    /* footer-aria */
+    .Contact-list {
+        margin-top: 70px;
+    }
+    .Contact-list p {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
+/* Small phones to small tablets: from 576px to 767px */
+@media only screen and (max-width: 767px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 10px 130px 10px 301px;
+        transition: 0.9s;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 40px 130px 46px 301px;
+    }
+    /* slider-aria */
+    .slider-contant{
+        padding: 100px 0;
+    }
+    .slider-contant h4 {
+        font-size: 22px;
+    }
+    .slider-contant h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .btn-primary {
+        padding: 15px 20px;
+    }
+    /* bg-contant */
+    .bg-single-conant p {
+        font-size: 11px;
+        padding: 20px 0;
+    }
+    .bg-single-conant span {
+        font-size: 13px;
+    }
+    button.btn.btn-danger {
+        font-size: 12px;
+        padding: 10px;
+        margin-top: 17px;
+    }
+    /* featuch-aria */
+    .single-featuch {
+        padding: 20px;
+    }
+    .single-featuch i {
+        font-size: 20px;
+    }
+    .single-featuch h3 {
+        font-size: 15px;
+        margin-left: 29px;
+    }
+    .single-featuch h4 {
+        font-size: 12px;
+    }
+    .readmore .fa-chart-line, .readmore .fa-cogs {
+        font-size: 20px;
+    }
+    .readmore a {
+        font-size: 15px;
+    }
+    /* our project */
+    .project-heaading h2 {
+        padding: 40px 0px;
+    }
+    .project-heaading h2 span {
+        margin-left: 220px;
+    }
+    .single-project i {
+        padding: 10px;
+    }
+    .single-project h3 {
+        margin-left: 70px;
+    }
+    .single-project h4 {
+        font-size: 14px;
+        margin-left: 70px;
+    }
+    /* Latest_Projects */
+   .Latest_Projects{
+        padding: 30px 0;
+    }
+    .Latest_Projects-heaading h2 span {
+        margin-left: 200px;
+    }
+    .Projects-contant {
+        padding: 15px 0;
+    }
+    .single-Projects {
+        padding: 0px;
+    }
+    .Projects-active .slick-arrow {
+        left: -17px;
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    .Projects-active .slick-arrow.slick-next {
+        left: auto;
+        right: -12px;
+    }
+    /* Choose-Us_Projects */
+    .Choose-Us_Projects-heaading h2 span {
+        margin-left: 220px;
+    }
+    a.video-popup {
+        top: 35%;
+    }
+    .video-project i {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .video-project h3 {
+        font-size: 14px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .video-project h4 {
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    /* Working-aria */
+    .Working-aria {
+        padding: 30px 0;
+    }
+    .Working-aria_Projects-heaading h2 {
+        margin-bottom: 10px;
+    }
+    .Working-aria_Projects-heaading h2 span {
+        margin-left: 135px;
+    }
+    .Working-aria_Projects-heaading h3 {
+        font-size: 14px;
+    }
+    button.btn.btn-success {
+        margin-top: 15px;
+        font-size: 14px;
+        margin-left: 25%;
+        padding: 15px 30px;
+    }
+    /* blog-aria */
+    .blog-aria {
+        padding: 30px 0;
+    }
+    .blog-active .slick-arrow {
+        right: 190px;
+        top: 22%;
+    }
+    .blog-active .slick-arrow.slick-next {
+        right: 150px;
+    }
+    .box {
+        width: 158px;
+    }
+    .box img {
+        height: 160px;
+    }
+    .blog-contant h3 {
+        font-size: 18px;
+    }
+    .blog-contant p {
+        font-size: 14px;
+    }
+    .content-readmore {
+        margin-top: 36px;
+    }
+    .content-readmore a {
+        font-size: 16px;
+    }
+    /* brand-aria */
+    .brand-aria {
+        padding: 0px ;
+    }
+}
+
+
+
+/* Small phones: from 0 to 576px */
+@media only screen and (max-width:576px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 40px 130px 46px 224px;
+    }
+    .form-inline {
+        margin-left: 215px;
+    }
+    .bg-single-conant p {
+        font-size: 9px;
+    }
+    .project-heaading h2 span {
+        margin-left: 190px;
+    }
+    .Latest_Projects-heaading h2 span {
+        margin-left: 170px;
+    }
+    .Choose-Us_Projects-heaading h2 span {
+        margin-left: 180px;
+    }
+    .Working-aria_Projects-heaading h2 span {
+        margin-left: 180px;
+    }
+    button.btn.btn-success {
+        margin-left: 35%;
+    }
+    .box {
+        width: 130px;
+    }
+    .box p {
+        width: 130px;
+    }
+    .content-readmore {
+        margin-top: 15px;
+    }
+    .content-readmore i {
+        font-size: 12px;
+    }
+    .content-readmore a {
+        font-size: 13px;
+    }
+    .blog-active .slick-arrow {
+        right: 110px;
+    }
+    .blog-active .slick-arrow.slick-next {
+        right: 60px;
+    }
+    .brant-icon, .brant-icon2 {
+        margin-left: 120px;
+    }
+    .footer-logo p {
+        font-size: 16px;
+    }
+    input {
+        width: 58%;
+    }
+    .brant-icon, .brant-icon2 {
+        margin-left: 100px;
+    }
+    .footer-logo p {
+        font-size: 17px;
+    }
+    .blog-contant h3 {
+        font-size: 15px;
+    }
+    .Projects-active .slick-arrow {
+        left: 6px;
+    }
+    .Projects-active .slick-arrow.slick-next {
+        left: auto;
+        right: 6px;
+    }
+    .Projects-contant {
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+
+/* Small phones: from 0 to 425px */
+@media only screen and (max-width:425px) {
+    .bg-single-conant p {
+        font-size: 7px;
+        padding: 10px 0;
+    }
+    button.btn.btn-danger {
+        font-size: 10px;
+        padding: 6px;
+        margin-top: 12px;
+    }
+    .featuch-aria {
+        padding: 5px 0;
+    }
+    .single-featuch h4 {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .readmore a {
+        font-size: 10px;
+    }
+    .project-heaading h2 {
+        padding: 20px 0px;
+    }
+    .project-heaading h2 span {
+        margin-left: 140px;
+    }
+    .single-project i {
+        padding: 5px;
+    }
+    .single-project h3 {
+        margin-left: 55px;
+    }
+    .single-project h4 {
+        font-size: 12px;
+        margin-left: 55px;
+    }
+    .Latest_Projects-heaading h2 span {
+        margin-left: 130px;
+    }
+    .Projects-contant {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .Projects-active .slick-arrow {
+        left: 10px;
+    }
+    .Projects-active .slick-arrow.slick-next {
+        left: auto;
+        right: 8px;
+    }
+    .Choose-Us-aria {
+        padding: 30px 0;
+    }
+    .Choose-Us_Projects-heaading h2 span {
+        margin-left: 140px;
+    }
+    a.video-popup {
+        left: 40%;
+    }
+    .video-project h3 {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .video-project h4 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .Working-aria_Projects-heaading h2 {
+        font-size: 16px;
+    }
+    .Working-aria_Projects-heaading h3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    button.btn.btn-success {
+        margin-left: 35%;
+        padding: 10px 20px;
+    }
+    /* bloge-aria */
+    .blog-aria {
+        padding: 10px 0;
+    }
+    .blog-post {
+        margin-top: 30px;
+    }
+    .box,
+    .box p {
+        width: 130px;
+    }
+    .box img {
+        height: 145px;
+    }
+    .blog-post h2 {
+        font-size: 16px;
+    }
+    .blog-contant h3 {
+        font-size: 10px;
+    }
+    .blog-contant p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .content-readmore {
+        margin-top: 45px;
+    }
+    .content-readmore i {
+        font-size: 10px;
+    }
+    .content-readmore a {
+        font-size: 9px;
+        margin-right: 5px;
+    }
+    .blog-active .slick-arrow {
+        right: 80px;
+        top: 9%;
+        font-size: 10px;
+    }
+    .blog-active .slick-arrow.slick-next {
+        right: 45px;
+    }
+    .Testimonial-contant p {
+        font-size: 10px;
+    }
+    .client-info img {
+        width: 50px;
+        height: 50px;
+    }
+    .blog-post h2 {
+        font-size: 12px;
+    }
+    .client-info a {
+        margin: 25px 0px 0px -115px;
+    }
+    .brant-icon, .brant-icon2 {
+        margin-left: 100px;
+    }
+    /* footer-aria */
+    .footer-logo p {
+        font-size: 13px;
+    }
+    .footer-menu a {
+        font-size: 12px;
+        line-height: 32px;
+    }
+    .Contact-list li {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .Contact-list p {
+        margin-bottom: 20px;
+    }
+    input {
+        width: 60%;
+        padding: 3px 0px 6px 0px;
+    }
+    .btn-success {
+        padding: 8px 6px;
+        font-size: 10px;
+    }
+    .copyright-aria {
+        padding: 20px 0px 0px 0px;
+    }
+    .copyright {
+        padding: 10px 0;
+    }
+    .copyright p{
+        font-size: 12px;
+    }
+}
+
+/* Small phones: from 0 to 375px */
+@media only screen and (max-width:375px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 30px 70px 10px 140px;
+    }
+    .form-inline {
+        margin: 10px 10px 10px 130px;
+    }
+    .bg-single-conant p {
+        font-size: 6px;
+    }
+    .bg-single-conant span {
+        font-size: 10px;
+    }
+    button.btn.btn-danger {
+        font-size: 8px;
+        padding: 5px;
+        margin-top: 15px;
+    }
+    .project-heaading h2 span {
+        margin-left: 120px;
+    }
+    .Latest_Projects-heaading h2 span {
+        margin-left: 110px;
+    }
+    .Choose-Us_Projects-heaading h2 span {
+        margin-left: 118px;
+    }
+    .video-project h4 {
+        font-size: 9px;
+        margin-bottom: 5px;
+    }
+    .Working-aria_Projects-heaading h2 span {
+        margin-left: 124px;
+    }
+    .content-readmore {
+        margin-top: 0px;
+    }
+    .content-readmore a {
+        font-size: 6px;
+        margin-right: 4px;
+    }
+    .footer-logo i {
+        margin-right: 10px;
+    }
+    input {
+        width: 50%;
+    }
+    
+}
+
+/* Small phones: from 0 to 320px */
+@media only screen and (max-width:320px) {
+   
+}
